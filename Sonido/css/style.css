@@ -1,0 +1,24 @@
+body{
+    background: #F5da81;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #800000;
+}
+
+button{
+    background: #00ffff;
+    width: 100px;
+    height: 40px;
+}
+
+audio{
+    color: #b45f04;
+    border: 3px;
+    border-style: solid;
+}
+
+button{
+    border-radius: 7%;
+    background-color: #c7c7c7;
+    font-weight: bold;
+    
+}

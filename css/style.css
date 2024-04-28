@@ -1,0 +1,50 @@
+.container{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.columna1 {
+    background: #b12020;
+    width: 100%;}
+.columna2 {
+    background: #1e1ebe;
+    width: 100%;}
+.columna3 {
+    background: #1e941e;
+    width: 100%;}
+.columna4 {
+    background: #b482ee;
+    width: 100%;}
+.columna5{
+    background: #865acd;
+    width: 100%;}
+
+@media (min-width: 600px){
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4,
+    .columna5{
+        width: 50%;
+    }
+
+}
+
+@media (min-width: 800px){
+    .columna1{width: 60%;}
+    .columna2{width: 40%;}
+
+    .columna3,
+    .columna4,
+    .columna5{
+        width: 33.33%;
+    }
+    .container{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
